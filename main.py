@@ -6,7 +6,6 @@ from replit import clear
 stages=hangman_art.stages
 word_list = hangman_words.word_list
 chosen_word = random.choice(word_list)
-print(chosen_word)
 print(hangman_art.logo)
 guess = input('Guess a letter:').lower()
 
